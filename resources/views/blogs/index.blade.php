@@ -10,6 +10,7 @@
     <a href="/blogs/create">新規作成</a>
   </div>
   @foreach ($blogs as $blog)
+    <img src="https://i.gzn.jp/img/2018/01/15/google-gorilla-ban/00.jpg" />
     <h4>{{$blog->title}}</h4>
     <p>{{$blog->body}}</p>
     <a href="/blogs/{{$blog->id}}">詳細を表示</a>
